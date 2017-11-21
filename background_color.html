@@ -1,0 +1,31 @@
+ <!-- Create a square div with 3 buttons to change its background color
+Red
+Blue
+Orange -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background Color</title>
+    <script type="text/javascript">
+    	function red(){
+    	   document.getElementById('demo').style.cssText = 'background:red;';
+    	}
+    	function blue(){
+    	   document.getElementById('demo').style.cssText = 'background:blue;';
+    	}
+    	function orange(){
+    	   document.getElementById('demo').style.cssText = 'background:orange;';
+    	}
+    </script>
+</head>
+<body>
+
+<div id="demo">
+	<button id="red" onclick="red()">  Red</button>
+	<br>
+	<button id="blue" onclick="blue()">Blue</button>
+	<br>
+	<button id="orange" onclick="orange()"> Orange</button>
+</div>
+</body>
+</html>
